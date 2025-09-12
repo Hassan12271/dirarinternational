@@ -1,8 +1,6 @@
-import { Link } from "react-router-dom";
-
 const Signup = () => {
   return (
-    <div className="flex items-center justify-center h-screen bg-transparent">
+    <div className="flex items-center justify-center bg-transparent">
       <div className="bg-gray-100 p-8 rounded-lg shadow-lg w-96">
         <h2 className="text-2xl font-bold mb-6 text-center">Sign Up</h2>
         <form>
@@ -20,7 +18,7 @@ const Signup = () => {
           </div>
           <button type="submit" className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition duration-200">Sign Up</button>
         </form>
-        Already have an account? <Link to="/login" className="text-blue-600 hover:underline">Login</Link>
+        Already have an account? Login.
       </div>
     </div>
   );

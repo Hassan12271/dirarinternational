@@ -1,10 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-
-
 const Login = () => {
   return (
-    <div className="flex items-center justify-center h-screen bg-transparent">
+    <div className="flex items-center justify-center h bg-transparent">
       <div className="bg-gray-100 p-8 rounded-lg shadow-lg w-96">
         <h2 className="text-2xl font-bold mb-6 text-center">Login</h2>
         <form>
@@ -23,7 +19,7 @@ const Login = () => {
               type="password"
               id="password"
               className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder="Enter your password"
+              placeholder="********"
             />
           </div>
           <button
@@ -33,7 +29,7 @@ const Login = () => {
             Login
           </button>
         </form>
-        You don't have an account? <Link to="/signup" className="text-blue-600 hover:underline">Sign up</Link>
+        You don't have an account? Sign up
       </div>
     </div>
   );
